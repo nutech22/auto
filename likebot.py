@@ -8,7 +8,7 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = treetc.LINE()
-cl.login(token='EoOy1qx3rVLWzjx0p8Za.pjcyT3ijjdfGtJx7H1WSgG.WDuF1H+R6Jq+PvBEv7aT3hm2+ucPZ3wQZhkNwo7jZsg=')
+cl.login(token='token')
 cl.loginResult()
 
 print u"login success"
@@ -19,7 +19,7 @@ KAC = [cl]
 mid = cl.getProfile().mid
 
 Bots = [mid]
-admid= "u30eb0fed0271ce81beb5c777d9448c8c"
+admid= "mid"
 wait = {
     'contact':False,
     'autoJoin':False,
