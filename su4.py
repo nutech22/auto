@@ -72,11 +72,11 @@ admin = ["u30eb0fed0271ce81beb5c777d9448c8c"]
 owner = ["u9489706a45fcf78bea076c6b77f7067d"]
 wait = {
     'contact':False,
-    'autoJoin':True,
+    'autoJoin':False,
     'autoCancel':{"on":True,"members":1},
     'leaveRoom':True,
     'timeline':True,
-    'autoAdd':True,
+    'autoAdd':False,
     'message':"Thank You for Adding Me",
     "lang":"JP",
     "comment":"AutoLike",
@@ -91,17 +91,17 @@ wait = {
     "wblacklist":False,
     "dblacklist":False,
     "Protectgr":True,
-    "qr":True,
+    "qr":False,
     "Backup":False,
-    "AutoKick":True,
-    "Mimic":True,
+    "AutoKick":False,
+    "Mimic":False,
     "Protectjoin":False,
-    "Protectcancl":True,
-    "protectionOn":True,
+    "Protectcancl":False,
+    "protectionOn":False,
     "winvite":False,
     "pname":{},
     "pro_name":{},
-    "atjointicket":True
+    "atjointicket":False
     }
 
 wait2 = {
